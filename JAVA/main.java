@@ -126,7 +126,7 @@ class main
                 }
                 else
                 {
-                    System.out.println("Press Enter to Continue...\n---\n(id - Nama - Program Studi - partai)\n\n[-----------DATA DPR------------]\n");
+                    System.out.println("Press Enter to Continue...\n---\n(id - Nama - bidang - partai)\n\n[-----------DATA DPR------------]\n");
                     for(i = 0; i < dataDPR.size(); i++)
                     {
                         System.out.println((i + 1) + ". " + dataDPR.get(i).getid() + " - " + dataDPR.get(i).getNama() + " - " + dataDPR.get(i).getbidang() + " - " + dataDPR.get(i).getpartai());
